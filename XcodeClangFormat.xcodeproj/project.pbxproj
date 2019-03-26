@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					559B23DD1D7EBDA300937AB3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y9HSHY4MP;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
@@ -219,6 +220,7 @@
 					};
 					559B240E1D7EBDC400937AB3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y9HSHY4MP;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
@@ -402,10 +404,10 @@
 				CODE_SIGN_ENTITLEMENTS = XcodeClangFormat/XcodeClangFormat.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8Y9HSHY4MP;
 				INFOPLIST_FILE = XcodeClangFormat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.XcodeClangFormat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlutsenko.XcodeClangFormat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -418,10 +420,10 @@
 				CODE_SIGN_ENTITLEMENTS = XcodeClangFormat/XcodeClangFormat.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8Y9HSHY4MP;
 				INFOPLIST_FILE = XcodeClangFormat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.XcodeClangFormat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlutsenko.XcodeClangFormat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -434,7 +436,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8Y9HSHY4MP;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -455,8 +457,9 @@
 					"$(LLVM_LIBDIR)/libclangRewrite.a",
 					"$(LLVM_LIBDIR)/libLLVMCore.a",
 					"$(LLVM_LIBDIR)/libLLVMSupport.a",
+					"$(LLVM_LIBDIR)/libclangToolingInclusions.a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbox.XcodeClangFormat.clang-format";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nlutsenko.XcodeClangFormat.clang-format";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = all;
@@ -471,7 +474,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8Y9HSHY4MP;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -492,8 +495,9 @@
 					"$(LLVM_LIBDIR)/libclangRewrite.a",
 					"$(LLVM_LIBDIR)/libLLVMCore.a",
 					"$(LLVM_LIBDIR)/libLLVMSupport.a",
+					"$(LLVM_LIBDIR)/libclangToolingInclusions.a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbox.XcodeClangFormat.clang-format";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nlutsenko.XcodeClangFormat.clang-format";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = all;
